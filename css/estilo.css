@@ -71,6 +71,8 @@ header {
     width: 100%;
     margin: auto;
     justify-items: center;
+    display: inline-grid;
+    text-align: center;
 }
 img{
     width: 100%;
@@ -93,6 +95,7 @@ img{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #000000;
     cursor:default;
+    display: inline-grid;
 }
 .banner{
     height: 50vh;
@@ -162,6 +165,10 @@ img{
 .team{
     background: rgb(227, 227, 227);
     padding: 30px;
+    position: relative;
+    width: calc(100% + 40px);
+    box-sizing: border-box;
+    left: -20px;
 }
 .team__grid
 {
